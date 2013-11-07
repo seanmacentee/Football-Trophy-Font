@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+body, html{font-size: 1em}
+
+@font-face {
+  font-family: "football-trophies";
+  src:url("fonts/football-trophies.eot");
+  src:url("fonts/football-trophies.eot?#iefix") format("embedded-opentype"),
+    url("fonts/football-trophies.ttf") format("truetype"),
+    url("fonts/football-trophies.svg#football-trophies") format("svg"),
+    url("fonts/football-trophies.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+}
+
+[data-icon]:before {
+  font-family: "football-trophies" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "football-trophies" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.x3{
+	font-size: 3rem !important;
+}
+.x6{
+	font-size: 6rem !important;
+}
+.x9{
+	font-size: 9rem !important;
+}
+.x12{
+	font-size: 12rem !important;
+}
+.x15{
+	font-size: 15rem !important;
+}
+.x20{
+	font-size: 20rem !important;
+}
+
+.icon-african-cup-of-nations:before {
+  content: "a";
+}
+
+.icon-bundesliga:before {
+  content: "b";
+}
+
+.icon-world-cup:before {
+  content: "c";
+}
+
+.icon-uefa-cup:before {
+  content: "d";
+}
+
+.icon-fa-cup:before {
+  content: "e";
+}
+
+.icon-european-championship:before {
+  content: "f";
+}
+
+.icon-copa-del-rey:before {
+  content: "g";
+}
+
+.icon-charity-sheild:before {
+  content: "h";
+}
+
+.icon-champions-league:before {
+  content: "i";
+}
+
+.icon-premier-league:before {
+  content: "j";
+}
+
+.icon-scottish-cup:before {
+  content: "k";
+}
+
+.icon-scottish-league-cup:before {
+  content: "l";
+}
+
+.icon-serie-a:before {
+  content: "m";
+}
+
+.icon-spl:before {
+  content: "n";
+}
+
+.icon-super-cup:before {
+  content: "o";
+}
+
+.icon-fifa-world-club-cup:before {
+  content: "p";
+}
+
+.icon-la-liga:before {
+  content: "q";
+}
+
+.icon-league-cup:before {
+  content: "r";
+}
+
+.icon-ligue-1:before {
+  content: "s";
+}
+
+.icon-league-of-ireland:before {
+  content: "t";
+}
+
+.icon-fai-cup:before {
+  content: "u";
+}
+
